@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import UseStateComponent from './Hooks/UseStateComponent';
 import UseEffectComponent from './Hooks/UseEffectComponent';
+import UseRefComponent from './Hooks/UseRefComponent';
 
 function Header() {
 
@@ -21,6 +22,7 @@ function Header() {
       </header>
       {/* <UseStateComponent /> */}
       {/* <UseEffectComponent/> */}
+      {/* <UseRefComponent/> */}
     </>
   )
 }
